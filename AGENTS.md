@@ -6,8 +6,8 @@
 
 ## Boot
 
-1. 执行 `pnpm compile` 即可启动默认应用（已通过 npm config 预设 target）
-2. 切换其他应用，可使用 `pnpm compile --target=<packageName>`
+1. 执行 `pnpm watch` 即可启动默认应用（已通过 npm config 预设 target）
+2. 切换其他应用，可使用 `pnpm watch --target=<packageName>`
 3. 禁止直接 cd 进子包执行命令。所有命令必须经由[铁律]转发
 
 ## Navigation
