@@ -1,3 +1,9 @@
+# Reademe
+
+## Features
+
+## Installation
+
 ## Configuration
 
 <!-- START_GENERATED_CONFIGURATION -->
@@ -17,3 +23,6 @@ Following configurations are supported via `settings.json` and can be changed fo
 | --- | ------------- | --------------- | ----------- |
 
 <!-- END_GENERATED_CONFIGURATION -->
+
+
+## License
