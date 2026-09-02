@@ -1,4 +1,4 @@
 {
-  "extension.displayName": "显示名",
-  "extension.description": "描述"
+  "displayName": "显示名",
+  "description": "描述"
 }

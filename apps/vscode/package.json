@@ -1,13 +1,27 @@
 {
   "name": "extension",
-  "displayName": "%extension.displayName%",
+  "displayName": "%displayName%",
   "version": "0.0.1",
   "private": "true",
-  "description": "%extension.description%",
+  "description": "%description%",
   "categories": [
     "Other"
   ],
+  "bugs": {
+    "url": "https://github.com/ACP-CODE/vscode-extension/issues"
+  },
   "license": "MIT",
+  "author": {
+    "name": "Cyril",
+    "email": "jakichen@live.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ACP-CODE/vscode-extension.git"
+  },
+  "sponsor": {
+    "url": "https://slous.inc/sponsor"
+  },
   "publisher": "Solus",
   "main": "./out/extension.js",
   "scripts": {

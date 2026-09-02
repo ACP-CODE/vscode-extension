@@ -1,4 +1,4 @@
 {
-  "extension.displayName": "Display name",
-  "extension.description": "Description"
+  "displayName": "Display name",
+  "description": "Description"
 }
