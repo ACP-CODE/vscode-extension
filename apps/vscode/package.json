@@ -49,6 +49,7 @@
   },
   "l10n": "./l10n",
   "contributes": {
+    "walkthroughs": [],
     "commands": [
       {
         "command": "extension.helloWorld",
@@ -57,7 +58,22 @@
     ],
     "configuration": {
       "properties": {}
-    }
+    },
+    "views": {
+      "explorer": [
+        {
+          "id": "projectPanel",
+          "name": "Notebook",
+          "icon": "$(archive)"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "explorer",
+        "contents": "You can also create a Notebook. \n[Create Notebook](command:extent.createNewWorkspace)"
+      }
+    ]
   },
   "engines": {
     "vscode": "^1.105.0"
