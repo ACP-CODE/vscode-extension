@@ -1,0 +1,35 @@
+{
+  "name": "root",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A monorepo workspace for Tauri 2 applications.",
+  "license": "MIT",
+  "author": "Solus inc.",
+  "type": "module",
+  "scripts": {
+    "fmt": "vp fmt",
+    "lint": "vp lint",
+    "check": "vp check",
+    "test:ci": "vpr -r test",
+    "test": "node scripts/run.mjs test",
+    "_precompile": "vpr check && vpr test:ci",
+    "compile": "node scripts/run.mjs compile",
+    "watch": "node scripts/run.mjs watch",
+    "rolldown": "node scripts/run.mjs rolldown",
+    "vsce": "node scripts/run.mjs vsce",
+    "docs:update": "node scripts/run.mjs docs:update"
+  },
+  "devDependencies": {
+    "vite-plus": "^0.3.0"
+  },
+  "config": {
+    "app": "extension"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.24.0",
+      "onFail": "download"
+    }
+  }
+}
