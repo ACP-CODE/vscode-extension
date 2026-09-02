@@ -1,6 +1,6 @@
 # out and test
+!.vscode/
 out*/
-.vscode-test/
 
 node_modules/
 *.vsix

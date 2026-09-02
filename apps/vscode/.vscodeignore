@@ -1,5 +1,4 @@
-.vscode/**
-.vscode-test/**
+.vscode*/
 out_test/**
 src/**
 examples/**
