@@ -2,7 +2,7 @@
   "name": "root",
   "version": "0.1.0",
   "private": true,
-  "description": "A monorepo workspace for Tauri 2 applications.",
+  "description": "A monorepo workspace for Visual Studio Code extensions.",
   "license": "MIT",
   "author": "Solus inc.",
   "type": "module",
